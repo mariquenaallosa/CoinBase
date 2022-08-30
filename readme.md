@@ -1,5 +1,6 @@
-Proyecto realizado como proyrcto integrador del curso de HTML y CSS de OpenBootcamp
-Utilizando las siguientes tecnologias:
+#Proyecto Integrador HTML-CSS OpenBootcamp
+
+##Tecnologías utilizadas:
     HTML
     CSS-SASS
     Bootstrap(Responsive)
