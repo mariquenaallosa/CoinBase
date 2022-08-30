@@ -41,10 +41,19 @@ $color-main: #0075ff;
 }
 
 .main-menu {
+    margin-bottom: 0;
   li {
     font-size: 0.75rem;
     list-style: none;
     display: inline;
+    a{
+        color:#000;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration:underline;
+        }
+    }
   }
 }
 
