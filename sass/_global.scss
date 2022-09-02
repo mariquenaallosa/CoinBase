@@ -118,3 +118,21 @@ body {
     }
   }
 }
+
+.sec-onboarding{
+  .intro{
+    @extend .sec-feature, .intro;
+  }
+  .steps{
+    padding: 0 7rem 5rem 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .step-separator{
+      flex:1;
+      border-top: 3px solid #ddd;
+      margin: 0 1rem;
+    }
+  }
+}

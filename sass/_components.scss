@@ -103,13 +103,13 @@ $color-main: #0075ff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .icon{
+    i {
         color:$color-main;
-        font-size: 10rem;
+        font-size: 9rem;
         padding:0;
     }
     .title{
-        margin-top:-2rem;
+        margin-top:-1rem;
         font-size: 1.6rem;
         font-weight: 600;
     }
