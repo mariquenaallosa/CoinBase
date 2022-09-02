@@ -1,3 +1,5 @@
+@use "components";
+
 @mixin section-display {
   width: 100%;
   max-width: 992px;
@@ -29,7 +31,7 @@ body {
   .home-cta {
     flex: 1;
     .cta-text {
-      color: #0075ff;
+      color: components.$color-main;
     }
   }
   .home-title {
@@ -94,5 +96,25 @@ body {
   .benefits-card{
     width: 100%;
     padding:0 2rem 2rem 2rem;
+  }
+}
+
+.sec-kpis{
+  width: 100%;
+  background-color: components.$color-main;
+  color: white;
+  padding:4rem;
+  .kpi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .number{
+      font-size: 3.5rem;
+      font-weight: 600;
+    }
+    .desc{
+      font-size: 0.9rem;
+      color:#ffffffaa;
+    }
   }
 }
