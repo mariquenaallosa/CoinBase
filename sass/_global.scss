@@ -136,3 +136,21 @@ body {
     }
   }
 }
+
+.sec-footer-cta{
+  background-color: components.$color-footer;
+  background-image: url("../assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding: 5rem;
+  .footer-cta{
+    width: 48%;
+    .cta-title{
+      font-size: 1.8rem;
+    }
+    .cta-description{
+      font-size: 1rem;
+    }
+  }
+  
+}

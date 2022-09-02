@@ -223,4 +223,21 @@ body {
   flex: 1;
   border-top: 3px solid #ddd;
   margin: 0 1rem;
+}
+
+.sec-footer-cta {
+  background-color: #f4f8fe;
+  background-image: url("../assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  padding: 5rem;
+}
+.sec-footer-cta .footer-cta {
+  width: 48%;
+}
+.sec-footer-cta .footer-cta .cta-title {
+  font-size: 1.8rem;
+}
+.sec-footer-cta .footer-cta .cta-description {
+  font-size: 1rem;
 }/*# sourceMappingURL=index.css.map */
